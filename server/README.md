@@ -1,6 +1,6 @@
-# Koa-boot
+# Server
 
-A simple scaffold for a Koa backend to get your server up and running.
+A simple Koa backend!
 
 ## Usage
 

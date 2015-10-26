@@ -1,6 +1,6 @@
-# Angular-boot
+# Client
 
-A simple scaffold for a Angular frontend to get your client app up and running.
+Simple front end app using Angular.
 
 Learn more about [AngularJS](https://angularjs.org/).
 
