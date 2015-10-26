@@ -1,0 +1,17 @@
+<h1>Welcome to the Giphy App!</h1>
+
+<p>You are {{ home.user.email }}!</p>
+
+<div>
+	Search for a gif: <input type="text" ng-model="home.giphyTerm">
+	<button ng-click="home.searchGiphy()">Search!</button>
+</div>
+
+<div>
+	<img ng-src="{{ home.giphySrc }}" ng-show="home.giphySrc">
+</div>
+<div>
+	<input type="text" ng-model="home.giphySrc" ng-show="home.giphySrc" autofocus>
+</div>
+
+<a ng-click="home.logout()">logout</a>

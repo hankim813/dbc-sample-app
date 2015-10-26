@@ -1,0 +1,35 @@
+{
+  "name": "koa-boot",
+  "version": "1.0.0",
+  "description": "quick template to jumpstart koa backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "koa",
+    "es6",
+    "backend",
+    "server",
+    "koajs"
+  ],
+  "author": "Han Kim",
+  "license": "MIT",
+  "dependencies": {
+    "co-monk": "^1.0.0",
+    "jwt-simple": "^0.3.1",
+    "koa": "^1.0.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^1.3.0",
+    "koa-request": "^1.0.0",
+    "koa-route": "^2.4.2",
+    "monk": "^1.0.1",
+    "nodemon": "^1.7.1",
+    "password-hash": "^1.2.2"
+  },
+  "engines": {
+    "node": "^0.12.x",
+    "npm": "^2.1.x"
+  }
+}

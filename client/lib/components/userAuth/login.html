@@ -1,0 +1,11 @@
+<h1>Log in</h1>
+
+<span>{{ signup.error.data }}</span>
+
+<div>
+	Email: <input type="text" ng-model="login.userData.email">
+	Password: <input type="password" ng-model="login.userData.password">
+</div>
+
+<button ng-click="login.submit()">Login!</button>
+<a ui-sref="landing">back</a>
